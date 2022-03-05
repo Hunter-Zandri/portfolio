@@ -6,34 +6,34 @@ function Portfolio() {
   // Replace links with deployed projects and GitHub repos
   const [projects] = useState([
     {
-      name: 'surf-report',
-      description: 'MERN Stack',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'personal',
+      description: 'Personal Portfolio',
+      link: "https://github.com/Hunter-Zandri/personal-portfolio-web",
+      repo: "https://github.com/Hunter-Zandri/personal-portfolio-web"
     },
     {
-      name: 'pastel-puzzels',
-      description: 'MERN Stack',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'weather',
+      description: 'Weather dashboard',
+      link: "https://github.com/Hunter-Zandri/Weather-Dashboard",
+      repo: "https://github.com/Hunter-Zandri/Weather-Dashboard"
     },
     {
-      name: 'run-buddy',
-      description: 'HTML/CSS',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'work',
+      description: 'Work Day scheduler',
+      link: "https://github.com/Hunter-Zandri/Work-Day-Scheduler",
+      repo: "https://github.com/Hunter-Zandri/Work-Day-Scheduler"
     },
     {
-      name: 'led-wall',
-      description: 'Node/IoT',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'code',
+      description: 'Code quiz',
+      link: "https://github.com/Hunter-Zandri/code-quiz004",
+      repo: "https://hunter-zandri.github.io/code-quiz004/"
     },
     {
-      name: 'calculator',
-      description: 'React/JavaScript/CSS',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'password',
+      description: 'Secure password genorator',
+      link: "https://hunter-zandri.github.io/secure-password-generator/",
+      repo: "https://github.com/Hunter-Zandri/secure-password-generator"
     },
   ]);
 
