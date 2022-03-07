@@ -1,11 +1,11 @@
 import React from 'react';
-
+import coverImage from '/Users/hunterzandri/Desktop/portfolio/src/assets/cover/profile.jpg';
 function About() {
   return (
     <section className="my-5">
       <div className="my-2">
         <div className="profile-img my-5">
-        <i className="fas fa-user-circle" style={{ fontSize: "96px" }}></i>
+        <img src={coverImage} alt="wooden background"></img>
         </div>
         <p>
         My Name is Hunter Zandri, I'm Kennebunk Maine and im currently enrolled in UNH full stack coding bootcamp.
